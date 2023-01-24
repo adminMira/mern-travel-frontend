@@ -69,7 +69,7 @@ export const RouteCard = ({
       )}
 
       <CardContent>
-                <Typography variant="body2" color="text.secondary">
+                <Typography variant="body2" color="primary">
           {title}
         </Typography>
         <Typography variant="body2" color="text.secondary">

@@ -29,7 +29,7 @@ const RouteFull = () => {
         alert("Ошибка при получении маршрута");
       });
   }, []);
-  const dataForReview = [route?.title, route?.user?.username];
+  const dataForReview = [route?.title, route?.user?.username, id];
   const onSubmit = async () => {
     try {
       const fields = {

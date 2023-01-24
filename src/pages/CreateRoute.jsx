@@ -229,7 +229,7 @@ function App() {
                   <img
                     src={item.imgSrc}
                     alt=""
-                    className="sm:w-1/3 w-full sm:h-4/5 h-2/3"
+                    className="sm:w-1/4 w-full sm:h-4/5 h-2/3"
                   />
                   <div className="sm:w-1/2  w-full h-4/5 ">
                     <h1>{item.title}</h1>

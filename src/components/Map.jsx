@@ -47,8 +47,8 @@ const Map = (route) => {
     return (
       <div
         id="map"
-        className="mt-2"
-        style={{ width: "100%", height: "600px" }}
+        className="mt-2 h-48 sm:h-[600px]"
+         style={{ width: "100%" }}
       ></div>
     );
   };

@@ -55,7 +55,7 @@ const Reviews = () => {
                         ></Avatar>
                       )}
                     </div>
-                    <div className="md:ml-6">
+                    <div className="md:ml-6 relative pb-2">
                       <h1 className="text-gray-600 font-normal mb-4 text-2xl w-fit">
                         {obj.dataForReview[0]}
                       </h1>

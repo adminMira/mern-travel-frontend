@@ -72,8 +72,7 @@ const Reviews = () => {
 
                       <NavLink
                         to={`/route/${obj.dataForReview[2]}`}
-                        className="font-light text-gray-500 rounded right-0 sm:absolute sm:px-2 duration-500 hover:text-slate-600 hover:bg-slate-200"
-                      >
+                        className="font-light text-gray-500 rounded right-0 sm:absolute sm:px-2 duration-500 hover:text-slate-600 hover:bg-slate-200">
                         Посмотреть
                       </NavLink>
                     </div>

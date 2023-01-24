@@ -63,12 +63,12 @@ const RouteFull = () => {
           <div
             key={i}
             item={item}
-            className="h-96 flex items-center justify-around"
+            className="h-96 flex sm:flex-row flex-col items-center justify-around p-2 sm:p-0"
           >
-            <img src={item.imgSrc} alt="" className="w-1/3 h-4/5" />
-            <div className="w-1/2 h-4/5 ">
+            <img src={item.imgSrc} alt="" className="sm:w-1/3 sm:h-4/5 h-1/3" />
+            <div className="sm:w-1/2 h-4/5">
               <h1>{item.title}</h1>
-              <p className="mt-6 font-light">{item.description}</p>
+              <p className="mt-6 font-light h-4/5 overflow-y-auto">{item.description}</p>
             </div>
           </div>
         ))}

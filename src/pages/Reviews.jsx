@@ -5,6 +5,7 @@ import Avatar from "@mui/material/Avatar";
 import { DeleteForever } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
 import axios from "./../axios";
+import { NavLink } from "react-router-dom";
 
 const Reviews = () => {
   const userData = useSelector((state) => state.auth.data);

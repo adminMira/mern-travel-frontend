@@ -16,7 +16,7 @@ const AllRoutes = () => {
     <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 p-8">
       {(isRoutesLoading ? [...Array()] : routes.items).map((obj, index) =>
         isRoutesLoading ? (
-          <div style="padding-top:100.000%;position:relative;"><iframe src="https://gifer.com/embed/VAyR" width="100%" height="100%" style='position:absolute;top:0;left:0;' frameBorder="0" allowFullScreen></iframe></div><p><a href="https://gifer.com">через GIFER</a></p>
+          <div></div>
         ) : (
           <RouteCard
             id={obj._id}

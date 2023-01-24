@@ -138,7 +138,7 @@ function Header() {
                         isActive ? "text-green-300" : "hover:text-[purple]"
                       }
                     >
-                      Избранное
+                      Мои маршруты
                     </NavLink>
                   </MenuItem>
                 </>
